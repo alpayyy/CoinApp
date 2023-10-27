@@ -5,13 +5,13 @@
 	color: white;
 	padding: 0.6em;
 	font-size: 1em;
-	background: #1a73e8; /* yeni arka plan rengi */
+	background: #1a73e8; 
 	border-radius: 5px;
 	cursor: pointer;
 }
 
 .CoinApp button:hover {
-	background: #1766d6; /* yeni arka plan rengi */
+	background: #1766d6; 
 }
 
 .CoinApp button:disabled {
