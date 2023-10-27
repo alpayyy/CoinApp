@@ -1,4 +1,4 @@
-.CoinFlipper button {
+.CoinAppbutton {
 	border: none;
 	outline: none;
 	margin-top: 20px;
@@ -10,16 +10,16 @@
 	cursor: pointer;
 }
 
-.CoinFlipper button:hover {
+.CoinApp button:hover {
 	background: #1766d6; /* yeni arka plan rengi */
 }
 
-.CoinFlipper button:disabled {
+.CoinApp button:disabled {
 	cursor: not-allowed;
 	background: #D9D7DE;
 }
 
-.CoinFlipper-number {
+.CoinApp-number {
 	font-weight: bold;
 }
 
