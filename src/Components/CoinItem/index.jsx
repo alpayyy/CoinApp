@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './CoinAppStyle.css';
-import Coin from './Coin';
+import Coin from '../CoinApp/Coin';
 
 const options = ['yazi', 'tura'];
 
