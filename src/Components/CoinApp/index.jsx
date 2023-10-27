@@ -29,23 +29,23 @@ const CoinApp = () => {
 
   return (
     <div className="Coin-container">
-      <h1>Yazi ya da Tura</h1>
+      <h1>YAZI VEYA TURA</h1>
       <Coin currentStatus={currentStatus} rotate={rotate} />
       <br />
 
-      <button onClick={start}>Atis Yap</button>
-      {results.length > 0 && !rotate && <h3>{currentStatus} geldi</h3>}
+      <button onClick={start}>ATIŞ YAP</button>
+      {results.length > 0 && !rotate && <h3>{currentStatus} GELDİ</h3>}
       <p>
         Toplam <span className="CoinFlipper-number">{results.length}</span> atış
         yapıldı
       </p>
       <p>
-        <span className="CoinFlipper-number">{heads}</span> kez <b>Yazı </b>
-        geldi
+        <span className="CoinFlipper-number">{heads}</span> kez <b>YAZI </b>
+        GELDİ
       </p>
       <p>
-        <span className="CoinFlipper-number">{tails}</span> kez <b>Tura </b>
-        geldi
+        <span className="CoinFlipper-number">{tails}</span> KEZ <b>TURA </b>
+        GELDİ
       </p>
     </div>
   );
