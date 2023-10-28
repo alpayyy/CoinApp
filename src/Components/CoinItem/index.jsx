@@ -36,15 +36,15 @@ const CoinApp = () => {
       <button onClick={start}>ATIŞ YAP</button>
       {results.length > 0 && !rotate && <h3>{currentStatus} GELDİ</h3>}
       <p>
-        Toplam <span className="CoinFlipper-number">{results.length}</span> atış
+        Toplam <span className="CoinApp-number">{results.length}</span> atış
         yapıldı
       </p>
       <p>
-        <span className="CoinFlipper-number">{heads}</span> kez <b>YAZI </b>
+        <span className="CoinApp-number">{heads}</span> kez <b>YAZI </b>
         GELDİ
       </p>
       <p>
-        <span className="CoinFlipper-number">{tails}</span> KEZ <b>TURA </b>
+        <span className="CoinApp-number">{tails}</span> KEZ <b>TURA </b>
         GELDİ
       </p>
     </div>
